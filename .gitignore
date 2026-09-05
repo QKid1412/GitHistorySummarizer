@@ -1,0 +1,19 @@
+# Secrets
+.env
+*.key
+
+# Generated reports. These contain real branch names, ticket prefixes and paths
+# from whatever repositories were analysed, so none of it belongs in git.
+output/*
+!output/.gitkeep
+.output-docs/
+redaction-key.txt
+**/detailed/
+**/shareable/
+**/team/
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
